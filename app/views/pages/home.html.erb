@@ -1,0 +1,24 @@
+<% if user_signed_in? %>
+	<h1>You're Logged in!</h1>
+<% else %>	
+	<div class="well">
+		<h1>Doginterest</h1>
+		<p>
+			You've found the homepage for
+			<%= link_to "Dog Lovers", "#" %>		
+		</p>
+		<p>
+			<%= link_to "Sign Up Now!", new_user_registration_path, class: "btn btn-success" %>
+		</p>
+	</div>	
+<% end %>
+	  
+
+
+
+
+
+
+
+
+	
