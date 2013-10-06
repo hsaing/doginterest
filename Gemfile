@@ -7,6 +7,7 @@ gem 'devise'
 gem 'simple_form'
 gem "paperclip", "~> 3.0"
 gem "aws-sdk"
+gem 'faker'
 
 # Use sqlite3 as the database for Active Record
 group :production do
